@@ -1,0 +1,65 @@
+HETATM    1  C1  LIG L9999      -0.094  16.908 -54.273  1.00  0.00           C  
+HETATM    2  N2  LIG L9999      -0.031  15.751 -55.154  1.00  0.00           N  
+HETATM    3  C3  LIG L9999       1.205  15.778 -55.976  1.00  0.00           C  
+HETATM    4  C4  LIG L9999       1.313  14.541 -56.894  1.00  0.00           C  
+HETATM    5  N5  LIG L9999       0.111  14.494 -57.717  1.00  0.00           N  
+HETATM    6  C6  LIG L9999       0.198  13.956 -58.934  1.00  0.00           C  
+HETATM    7  N7  LIG L9999       0.913  12.897 -59.323  1.00  0.00           N  
+HETATM    8  C8  LIG L9999       0.705  12.749 -60.662  1.00  0.00           C  
+HETATM    9  C9  LIG L9999       1.165  11.837 -61.671  1.00  0.00           C  
+HETATM   10  C10 LIG L9999       0.780  11.931 -63.018  1.00  0.00           C  
+HETATM   11  C11 LIG L9999      -0.124  12.883 -63.356  1.00  0.00           C  
+HETATM   12  C12 LIG L9999      -0.485  13.791 -62.362  1.00  0.00           C  
+HETATM   13  C13 LIG L9999      -0.130  13.782 -61.066  1.00  0.00           C  
+HETATM   14  N14 LIG L9999      -0.375  14.625 -60.000  1.00  0.00           N  
+HETATM   15  C15 LIG L9999      -1.160  15.893 -59.914  1.00  0.00           C  
+HETATM   16  C16 LIG L9999      -1.266  16.675 -61.230  1.00  0.00           C  
+HETATM   17  C17 LIG L9999       0.010  17.438 -61.579  1.00  0.00           C  
+HETATM   18  N18 LIG L9999       0.617  18.221 -60.456  1.00  0.00           N  
+HETATM   19  C19 LIG L9999       2.040  18.781 -60.729  1.00  0.00           C  
+HETATM   20  C20 LIG L9999       2.009  19.705 -62.017  1.00  0.00           C  
+HETATM   21  O21 LIG L9999       0.770  20.373 -62.251  1.00  0.00           O  
+HETATM   22  C22 LIG L9999       2.543  19.566 -59.489  1.00  0.00           C  
+HETATM   23  C23 LIG L9999       3.986  20.113 -59.499  1.00  0.00           C  
+HETATM   24  C24 LIG L9999       5.208  19.177 -59.653  1.00  0.00           C  
+HETATM   25  C25 LIG L9999       5.246  17.953 -58.737  1.00  0.00           C  
+HETATM   26  C26 LIG L9999       4.867  16.651 -59.412  1.00  0.00           C  
+HETATM   27  C27 LIG L9999       3.439  16.708 -59.856  1.00  0.00           C  
+HETATM   28  C28 LIG L9999       3.116  17.716 -61.014  1.00  0.00           C  
+HETATM   29  C29 LIG L9999       0.459  17.597 -59.114  1.00  0.00           C  
+HETATM   30  C30 LIG L9999      -0.840  16.904 -58.803  1.00  0.00           C  
+HETATM   31  C31 LIG L9999      -1.153  14.461 -56.968  1.00  0.00           C  
+HETATM   32  C32 LIG L9999      -1.203  15.710 -56.058  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3   32
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6   31
+CONECT    6    5    7   14
+CONECT    7    6    8
+CONECT    8    7    9   13
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13    8   12   14
+CONECT   14    6   13   15
+CONECT   15   14   16   30
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19   29
+CONECT   19   18   20   22   28
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   19   27
+CONECT   29   18   30
+CONECT   30   15   29
+CONECT   31    5   32
+CONECT   32    2   31
+END

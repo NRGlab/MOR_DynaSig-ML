@@ -1,0 +1,51 @@
+HETATM    1  C1  LIG L9999      -2.116  15.710 -60.996  1.00  0.00           C  
+HETATM    2  C2  LIG L9999      -0.967  14.996 -60.298  1.00  0.00           C  
+HETATM    3  C3  LIG L9999       0.453  15.099 -60.908  1.00  0.00           C  
+HETATM    4  C4  LIG L9999       0.715  16.499 -61.422  1.00  0.00           C  
+HETATM    5  C5  LIG L9999       1.151  17.401 -60.244  1.00  0.00           C  
+HETATM    6  N6  LIG L9999       1.125  16.875 -58.875  1.00  0.00           N  
+HETATM    7  C7  LIG L9999      -0.155  17.062 -58.129  1.00  0.00           C  
+HETATM    8  C8  LIG L9999      -0.368  16.553 -56.623  1.00  0.00           C  
+HETATM    9  O9  LIG L9999       0.842  16.862 -55.905  1.00  0.00           O  
+HETATM   10  C10 LIG L9999      -0.686  15.050 -56.407  1.00  0.00           C  
+HETATM   11  C11 LIG L9999       0.318  14.066 -56.372  1.00  0.00           C  
+HETATM   12  C12 LIG L9999       0.013  12.710 -56.582  1.00  0.00           C  
+HETATM   13  C13 LIG L9999      -1.300  12.303 -56.795  1.00  0.00           C  
+HETATM   14  C14 LIG L9999      -2.320  13.231 -56.654  1.00  0.00           C  
+HETATM   15  C15 LIG L9999      -2.014  14.574 -56.392  1.00  0.00           C  
+HETATM   16  C16 LIG L9999       1.733  15.517 -58.768  1.00  0.00           C  
+HETATM   17  C17 LIG L9999       1.697  14.721 -60.097  1.00  0.00           C  
+HETATM   18  O18 LIG L9999       1.749  13.271 -60.054  1.00  0.00           O  
+HETATM   19  C19 LIG L9999       1.175  12.932 -61.271  1.00  0.00           C  
+HETATM   20  C20 LIG L9999       1.109  11.665 -61.829  1.00  0.00           C  
+HETATM   21  C21 LIG L9999       0.342  11.507 -63.001  1.00  0.00           C  
+HETATM   22  C22 LIG L9999      -0.333  12.586 -63.583  1.00  0.00           C  
+HETATM   23  O23 LIG L9999      -1.126  12.466 -64.681  1.00  0.00           O  
+HETATM   24  C24 LIG L9999      -0.261  13.851 -63.019  1.00  0.00           C  
+HETATM   25  C25 LIG L9999       0.496  13.979 -61.872  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4   17   25
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7   16
+CONECT    7    6    8
+CONECT    8    7   10    9
+CONECT    9    8
+CONECT   10    8   11   15
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   10   14
+CONECT   16    6   17
+CONECT   17    3   16   18
+CONECT   18   17   19
+CONECT   19   18   20   25
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25    3   19   24
+END
